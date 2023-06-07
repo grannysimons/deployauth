@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import CreateProject from '../components/createProject';
+import CreateProject from '../components/CreateProject.jsx';
 import { projectsContext } from '../contexts/projects.context';
 import { authContext } from '../contexts/auth.context';
 
